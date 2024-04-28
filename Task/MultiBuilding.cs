@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Task
 {
-    internal class MultiBuilding : Building
+    internal sealed class MultiBuilding : Building
     {
         int buildingNumFloors;
         public MultiBuilding(string buildingAddress, int buildingLength, int boildingWidth, int boildingHeight, int buildingNumFloors)
